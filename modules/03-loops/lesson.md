@@ -153,9 +153,9 @@ Hazlo de dos maneras:
 - Primero con un bucle `while` y un contador.
 - Después con un bucle `for` y `range()`.
 
-[Descarga el archivo inicial](mini_project.py) — tiene la estructura para ambas versiones con indicaciones de dónde escribir tu código.
+[Descarga el archivo inicial](03_cuenta_regresiva.py) — tiene la estructura para ambas versiones con indicaciones de dónde escribir tu código.
 
-Cuando termines, compara tu resultado con la [solución completa](solution.py).
+Cuando termines, compara tu resultado con la [solución completa](03_cuenta_regresiva_solucion.py).
 
 ---
 

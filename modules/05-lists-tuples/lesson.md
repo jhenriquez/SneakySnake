@@ -192,9 +192,9 @@ El programa funciona así:
 5. Después de cada movimiento, el programa muestra la posición actual y la lista completa de posiciones visitadas.
 6. El jugador escribe "salir" para terminar.
 
-[Descarga el archivo inicial](mini_project.py) — tiene la estructura con el bucle y la variable de posición ya creadas.
+[Descarga el archivo inicial](05_rastreador_de_posiciones.py) — tiene la estructura con el bucle y la variable de posición ya creadas.
 
-Cuando termines, compara tu resultado con la [solución completa](solution.py).
+Cuando termines, compara tu resultado con la [solución completa](05_rastreador_de_posiciones_solucion.py).
 
 ---
 

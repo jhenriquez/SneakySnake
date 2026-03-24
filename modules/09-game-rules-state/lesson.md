@@ -203,7 +203,7 @@ Esto es Snake sin comida y sin cola — pero ya tiene las reglas fundamentales.
 
 Este módulo no tiene archivo inicial. Usa tu solución del Módulo 8 como base y agrega las nuevas funcionalidades. Recuerda que necesitas [keyboard.py](keyboard.py) en la misma carpeta.
 
-Cuando termines, compara tu resultado con la [solución completa](solution.py).
+Cuando termines, compara tu resultado con la [solución completa](09_snake_sin_cola_solucion.py).
 
 ---
 

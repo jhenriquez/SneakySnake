@@ -146,9 +146,9 @@ Bienvenido, María
 Tu puntaje actual es: 0
 ```
 
-[Descarga el archivo inicial](mini_project.py) — tiene la estructura del programa con comentarios que te indican dónde escribir tu código. El programa también incluye una línea con `input()` que te permite escribir tu nombre cuando ejecutas el programa. No te preocupes por entender `input()` todavía — es una línea que viene pre-escrita para ti.
+[Descarga el archivo inicial](01_saludo_personalizado.py) — tiene la estructura del programa con comentarios que te indican dónde escribir tu código. El programa también incluye una línea con `input()` que te permite escribir tu nombre cuando ejecutas el programa. No te preocupes por entender `input()` todavía — es una línea que viene pre-escrita para ti.
 
-Cuando termines, puedes comparar tu solución con la [solución completa](solution.py).
+Cuando termines, puedes comparar tu solución con la [solución completa](01_saludo_personalizado_solucion.py).
 
 ---
 

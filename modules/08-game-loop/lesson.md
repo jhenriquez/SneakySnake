@@ -190,9 +190,9 @@ Tu programa debe:
    - Redibujar la cuadrícula con `"\033[H"`.
    - Esperar 0.1 segundos.
 
-[Descarga el archivo inicial](mini_project.py) — tiene los imports, el `setup_keyboard()`, y la estructura del bucle ya preparados. También necesitas descargar [keyboard.py](keyboard.py) y ponerlo en la misma carpeta.
+[Descarga el archivo inicial](08_jugador_movil.py) — tiene los imports, el `setup_keyboard()`, y la estructura del bucle ya preparados. También necesitas descargar [keyboard.py](keyboard.py) y ponerlo en la misma carpeta.
 
-Cuando termines, compara tu resultado con la [solución completa](solution.py).
+Cuando termines, compara tu resultado con la [solución completa](08_jugador_movil_solucion.py).
 
 ---
 

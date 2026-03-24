@@ -149,7 +149,7 @@ Ejecuta el programa varias veces y verifica que el `*` aparece en un lugar difer
 
 Este módulo no tiene archivo inicial — es hora de escribir el programa completo por tu cuenta. Puedes basarte en tu solución del Módulo 6 como punto de partida.
 
-Cuando termines, compara tu resultado con la [solución completa](solution.py).
+Cuando termines, compara tu resultado con la [solución completa](07_escena_aleatoria_solucion.py).
 
 ---
 

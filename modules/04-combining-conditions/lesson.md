@@ -150,9 +150,9 @@ El juego funciona así:
 4. Para pasar por la puerta final, necesita la llave **y** la antorcha.
 5. El juego termina cuando el jugador cruza la puerta final o decide salir.
 
-[Descarga el archivo inicial](mini_project.py) — tiene la estructura del juego con el bucle principal y las variables de inventario ya creadas. Tu trabajo es completar las condiciones compuestas en cada decisión.
+[Descarga el archivo inicial](04_aventura_de_texto.py) — tiene la estructura del juego con el bucle principal y las variables de inventario ya creadas. Tu trabajo es completar las condiciones compuestas en cada decisión.
 
-Cuando termines, compara tu resultado con la [solución completa](solution.py).
+Cuando termines, compara tu resultado con la [solución completa](04_aventura_de_texto_solucion.py).
 
 ---
 

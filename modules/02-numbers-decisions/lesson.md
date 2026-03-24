@@ -161,9 +161,9 @@ El juego funciona así:
 3. El programa compara el intento con el número secreto y dice "Muy alto", "Muy bajo", o "¡Correcto!".
 4. Si el jugador no adivina, puede intentar de nuevo (el programa repite los pasos 2 y 3).
 
-[Descarga el archivo inicial](mini_project.py) — encontrarás la estructura del juego con un bucle `while True` ya escrito. Ese bucle hace que el programa repita los pasos automáticamente. No te preocupes por entender el bucle todavía — lo vamos a estudiar a fondo en el siguiente módulo. Por ahora, solo necesitas saber que todo lo que esté dentro del bucle se repite una y otra vez hasta que pongas `break`.
+[Descarga el archivo inicial](02_adivina_el_numero.py) — encontrarás la estructura del juego con un bucle `while True` ya escrito. Ese bucle hace que el programa repita los pasos automáticamente. No te preocupes por entender el bucle todavía — lo vamos a estudiar a fondo en el siguiente módulo. Por ahora, solo necesitas saber que todo lo que esté dentro del bucle se repite una y otra vez hasta que pongas `break`.
 
-Cuando termines, compara tu solución con la [solución completa](solution.py).
+Cuando termines, compara tu solución con la [solución completa](02_adivina_el_numero_solucion.py).
 
 ---
 

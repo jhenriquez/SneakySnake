@@ -178,9 +178,9 @@ Vas a dibujar una cuadrícula de 40 columnas por 15 filas con:
 
 El programa imprime la cuadrícula una vez y termina.
 
-[Descarga el archivo inicial](mini_project.py) — tiene las variables de tamaño y posiciones ya definidas, y la estructura de los bucles anidados. Tu trabajo es completar las condiciones que deciden qué carácter poner en cada posición.
+[Descarga el archivo inicial](06_escena_estatica.py) — tiene las variables de tamaño y posiciones ya definidas, y la estructura de los bucles anidados. Tu trabajo es completar las condiciones que deciden qué carácter poner en cada posición.
 
-Cuando termines, compara tu resultado con la [solución completa](solution.py).
+Cuando termines, compara tu resultado con la [solución completa](06_escena_estatica_solucion.py).
 
 ---
 
