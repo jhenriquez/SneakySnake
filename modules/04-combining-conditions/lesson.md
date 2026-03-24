@@ -42,6 +42,17 @@ else:
 
 Aunque `tiene_permiso` es `True`, `edad >= 13` es `False`, y `False and True` da `False`.
 
+Aquí tienes todas las combinaciones posibles de `and`:
+
+| Condición A | Condición B | A `and` B |
+|---|---|---|
+| `True` | `True` | `True` |
+| `True` | `False` | `False` |
+| `False` | `True` | `False` |
+| `False` | `False` | `False` |
+
+Solo hay **una** combinación que da `True`: cuando ambas son verdaderas. Si cualquiera es `False`, el resultado es `False`.
+
 En nuestro juego de Snake, este patrón aparece cuando procesamos las teclas:
 
 ```python
@@ -66,6 +77,15 @@ else:
 
 Basta con que una de las dos comparaciones sea `True` para que todo sea `True`. Solo cuando ambas son `False`, el resultado es `False`.
 
+| Condición A | Condición B | A `or` B |
+|---|---|---|
+| `True` | `True` | `True` |
+| `True` | `False` | `True` |
+| `False` | `True` | `True` |
+| `False` | `False` | `False` |
+
+Solo hay **una** combinación que da `False`: cuando ambas son falsas. Si cualquiera es `True`, el resultado es `True`. Es lo opuesto a `and`.
+
 ```python
 dia = "martes"
 
@@ -87,6 +107,13 @@ if not esta_lloviendo:
 ```
 
 `esta_lloviendo` es `False`, pero `not False` es `True`, así que el mensaje se muestra. Es como decir "si NO está lloviendo".
+
+| Valor | `not` Valor |
+|---|---|
+| `True` | `False` |
+| `False` | `True` |
+
+`not` simplemente invierte el valor. Es el más sencillo de los tres.
 
 ## Combinando varios operadores
 
