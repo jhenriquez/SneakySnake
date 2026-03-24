@@ -114,6 +114,44 @@ for i in range(1, 4):
 
 Esto muestra `1`, `2`, `3`. El primer número es dónde empieza y el segundo es dónde se detiene (sin incluirlo).
 
+Recuerda el patrón que vimos en el Módulo 1: lo que va dentro de los paréntesis es la información que le das a la instrucción. Con `range()` puedes darle uno, dos o tres datos separados por comas, y cada uno cambia su comportamiento.
+
+## Contar hacia atrás con `range()`
+
+Si le das tres datos a `range()`, el tercero le dice **cuánto sumar en cada paso**. Si quieres contar hacia atrás, el tercer dato debe ser negativo:
+
+```python
+for i in range(5, 0, -1):
+    print(i)
+```
+
+Esto muestra:
+
+```
+5
+4
+3
+2
+1
+```
+
+Los tres datos son: **dónde empieza** (5), **dónde se detiene** (0, sin incluirlo), y **cuánto suma en cada paso** (-1). Como el tercer dato es `-1`, en cada vuelta Python le suma `-1` al número actual — es decir, le resta 1. Así va de 5 a 4, de 4 a 3, y así hasta llegar a 1 (se detiene antes de 0).
+
+Otro ejemplo: contar de 10 en 10:
+
+```python
+for i in range(0, 50, 10):
+    print(i)
+```
+
+Esto muestra `0`, `10`, `20`, `30`, `40`. El tercer dato es `10`, así que en cada paso suma 10.
+
+Resumiendo las formas de usar `range()`:
+
+- `range(5)` — genera 0, 1, 2, 3, 4 (un solo dato: cuántos números)
+- `range(2, 7)` — genera 2, 3, 4, 5, 6 (dos datos: inicio y fin)
+- `range(10, 0, -1)` — genera 10, 9, 8, ..., 1 (tres datos: inicio, fin, y cuánto sumar en cada paso)
+
 En nuestro juego, vamos a usar `for` con `range()` para dibujar la cuadrícula fila por fila. Eso lo veremos en el Módulo 6, pero por ahora ya sabes cómo funciona.
 
 ## Comparación: `while` vs `for`

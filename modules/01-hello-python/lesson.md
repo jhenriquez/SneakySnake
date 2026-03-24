@@ -32,7 +32,9 @@ Cuando lo ejecutes, verás en la terminal:
 ¡Hola, mundo!
 ```
 
-¡Felicidades! Acabas de escribir tu primer programa. La palabra `print` le dice a Python "muestra esto en la pantalla", y el texto entre comillas es lo que se va a mostrar. A ese texto entre comillas le llamamos **cadena de texto** (o simplemente *string*).
+¡Felicidades! Acabas de escribir tu primer programa. La palabra `print` le dice a Python "muestra esto en la pantalla", y lo que ponemos dentro de los paréntesis es la información que le damos para que haga su trabajo — en este caso, el texto que queremos mostrar. A ese texto entre comillas le llamamos **cadena de texto** (o simplemente *string*).
+
+Vas a ver este patrón muchas veces a lo largo del curso: una instrucción seguida de paréntesis con datos adentro. Los datos que van dentro de los paréntesis son como los ingredientes de una receta — la instrucción necesita esos ingredientes para poder hacer algo útil. A veces le das un solo dato, a veces le das varios separados por comas.
 
 Puedes usar `print()` varias veces para mostrar varias líneas:
 
