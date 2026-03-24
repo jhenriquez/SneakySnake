@@ -1,0 +1,18 @@
+title: SneakySnake
+description: "Aprende Python construyendo el juego Snake — un curso práctico para principiantes."
+
+theme: just-the-docs
+
+url: ""
+baseurl: "/sneakysnake"
+
+exclude:
+  - CLAUDE.md
+  - assets/code/
+  - assets/syllabus.md
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - "*.py"
+
+nav_order: default
