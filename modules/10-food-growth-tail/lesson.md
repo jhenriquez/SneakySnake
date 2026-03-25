@@ -165,7 +165,7 @@ También cuidado al generar la nueva comida — si olvidas verificar que no caig
 
 ## Mini-proyecto: Snake completo
 
-Es hora de completar el juego. Toma tu programa del Módulo 9 y agrega:
+Es hora de completar el juego. Abre tu `main.py` — el mismo archivo que has venido construyendo desde el Módulo 8 — y agrega las últimas piezas:
 
 1. Generación de comida en posición aleatoria válida.
 2. Una cola que crece cuando la serpiente come.
@@ -173,9 +173,9 @@ Es hora de completar el juego. Toma tu programa del Módulo 9 y agrega:
 4. Puntaje mostrado encima de la cuadrícula.
 5. La comida (`*`) y la cola (`o`) dibujadas en la cuadrícula.
 
-Este módulo no tiene archivo inicial. Construye sobre tu solución del Módulo 9. Recuerda que necesitas [keyboard.py](keyboard.py) en la misma carpeta.
+Sigue trabajando en tu `main.py`. Recuerda que `keyboard.py` debe seguir en la misma carpeta.
 
-Cuando termines, compara tu resultado con la [solución completa](10_snake_completo_solucion.py). Tu programa debe ser un juego de Snake completamente funcional.
+Cuando termines, compara tu `main.py` con la [solución completa](10_snake_completo_solucion.py). Tu programa debe ser un juego de Snake completamente funcional.
 
 ¡Felicidades si llegaste hasta aquí! Has construido un juego completo desde cero, paso a paso, usando solo las herramientas fundamentales de Python.
 

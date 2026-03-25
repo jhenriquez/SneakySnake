@@ -175,7 +175,9 @@ Otro error común es olvidar `setup_keyboard()` al inicio. Si no lo llamas, `get
 
 Si el `@` deja un rastro o la pantalla se ve desordenada, verifica que tienes `print("\033[H", end="")` antes de dibujar la cuadrícula. Sin esa línea, cada cuadro se dibuja debajo del anterior en vez de encima.
 
-## Mini-proyecto: Jugador móvil
+## Mini-proyecto: Jugador móvil — el inicio del juego real
+
+Hasta ahora, cada mini-proyecto ha sido un programa independiente. Eso cambia aquí. **Este mini-proyecto es el inicio de tu juego de Snake.** El archivo que vas a crear ahora es el mismo que vas a seguir modificando en los Módulos 9 y 10 hasta tener el juego completo.
 
 Vas a crear un programa donde el `@` se mueve libremente en una cuadrícula de 150×30 usando las flechas del teclado. No hay comida, no hay cola, no hay colisiones — solo un personaje que se mueve. Este es el primer momento donde tu programa se siente como un juego.
 
@@ -190,7 +192,12 @@ Tu programa debe:
    - Redibujar la cuadrícula con `"\033[H"`.
    - Esperar 0.1 segundos.
 
-[Descarga el archivo inicial](08_jugador_movil.py) — tiene los imports, el `setup_keyboard()`, y la estructura del bucle ya preparados. También necesitas descargar [keyboard.py](keyboard.py) y ponerlo en la misma carpeta.
+Para empezar, crea una carpeta para tu juego y descarga estos dos archivos ahí:
+
+1. [Descarga el archivo inicial](08_jugador_movil.py) — tiene los imports, el `setup_keyboard()`, y la estructura del bucle ya preparados. **Renómbralo a `main.py`** — este será el archivo de tu juego de aquí en adelante.
+2. [keyboard.py](keyboard.py) — ponlo en la misma carpeta que `main.py`. Tu juego lo necesita para leer las teclas.
+
+> **💡 Tip:** A partir de ahora, siempre vas a trabajar en `main.py`. En los próximos dos módulos vas a ir agregándole funcionalidades hasta tener el juego completo. No crees archivos nuevos — todo va en el mismo `main.py`.
 
 Cuando termines, compara tu resultado con la [solución completa](08_jugador_movil_solucion.py).
 

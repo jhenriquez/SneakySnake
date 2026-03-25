@@ -193,7 +193,7 @@ También cuidado con la verificación de colisión: necesitas usar `<=` y `>=`, 
 
 ## Mini-proyecto: Snake sin cola
 
-Vas a actualizar tu programa del Módulo 8 para agregar las reglas del juego. El `@` ahora:
+Vas a seguir trabajando en tu `main.py` del Módulo 8 — abre ese mismo archivo y agrégale las reglas del juego. El `@` ahora:
 
 1. Se mueve automáticamente en la dirección actual (empieza hacia la derecha).
 2. Cambia de dirección con las flechas, pero no puede invertirse.
@@ -201,7 +201,7 @@ Vas a actualizar tu programa del Módulo 8 para agregar las reglas del juego. El
 
 Esto es Snake sin comida y sin cola — pero ya tiene las reglas fundamentales.
 
-Este módulo no tiene archivo inicial. Usa tu solución del Módulo 8 como base y agrega las nuevas funcionalidades. Recuerda que necesitas [keyboard.py](keyboard.py) en la misma carpeta.
+Este módulo no tiene archivo inicial. Abre tu `main.py` y agrega las nuevas funcionalidades directamente ahí. Recuerda que `keyboard.py` debe seguir en la misma carpeta.
 
 Cuando termines, compara tu resultado con la [solución completa](09_snake_sin_cola_solucion.py).
 
